@@ -1,0 +1,5 @@
+collections:
+  - name: community.general
+    source: https://github.com/living-with/community.general
+    type: git
+    version: hotfix-issue-10305

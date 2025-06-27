@@ -5,3 +5,6 @@ platforms:
   - name: localhost
 provisioner:
   name: ansible
+dependency:
+  options:
+    requirements-file: ${MOLECULE_PROJECT_DIRECTORY}/requirements.yml
